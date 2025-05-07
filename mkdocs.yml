@@ -1,0 +1,18 @@
+site_name: Cancer Prediction
+site_url: https://github.com/Bentonite/cancer-prediction-hd470
+repo_url: https://github.com/Bentonite/cancer-prediction-hd470
+
+nav:
+  - Home: index.md
+  - cancer_prediction:
+    - cancer model: cancer_prediction/cancer_model.md
+
+theme: readthedocs
+
+plugins:
+  - mkdocstrings
+
+watch:
+  - .
+
+
