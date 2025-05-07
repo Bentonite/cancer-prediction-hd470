@@ -1,0 +1,29 @@
+[project]
+name = "cancer-prediction-hd470"
+version = "0.1.0"
+description = "A basic model to predict cancerous tumores based on certain properties."
+authors = [
+    {name = "Han Ding",email = "99805436+Bentonite@users.noreply.github.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy (>=2.2.5,<3.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "matplotlib (>=3.10.1,<4.0.0)",
+    "streamlit (>=1.45.0,<2.0.0)",
+    "typer (>=0.15.3,<0.16.0)"
+]
+
+[tool.poetry]
+
+[tool.poetry.group.dev.dependencies]
+isort = "^6.0.1"
+flake8 = "^7.2.0"
+black = "^25.1.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
